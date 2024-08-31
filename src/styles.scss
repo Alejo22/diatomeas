@@ -10942,3 +10942,19 @@ details{
 	}
 	
 }
+
+.construccion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  img{
+    max-width: 30vw;
+  }
+
+  p{
+    font-size: 1.8rem;
+    color: #7c0808;
+  }
+}

@@ -8,6 +8,9 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ConceptsComponent } from './pages/concepts/concepts.component';
+import { SourcesInformationComponent } from './pages/sources-information/sources-information.component';
+import { CharacterizationComponent } from './pages/characterization/characterization.component';
+import { LaboratoryResultsComponent } from './pages/laboratory-results/laboratory-results.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ConceptsComponent } from './pages/concepts/concepts.component';
     FooterComponent,
     AboutUsComponent,
     HomeComponent,
-    ConceptsComponent
+    ConceptsComponent,
+    SourcesInformationComponent,
+    CharacterizationComponent,
+    LaboratoryResultsComponent
   ],
   imports: [
     BrowserModule,
